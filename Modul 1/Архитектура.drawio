@@ -1,0 +1,98 @@
+<mxfile host="Electron" modified="2024-04-17T09:08:56.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="4hOogCW_SaSfpEfAai8U" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="6MtEo8myfOWqvo4Mhugv">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="490" as="sourcePoint" />
+            <mxPoint x="200" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Архитектура аналитического решения&amp;nbsp;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="30" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-7" value="Хранилище данных&lt;div&gt;DWH_esstu&lt;/div&gt;&lt;div&gt;(Schema aws)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="280" y="220" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-8" value="ETL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="265.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-9" value="BI Metabase" style="image;html=1;image=img/lib/clip_art/finance/Pie_Chart_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="615" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-10" value="Excel" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.excel_services;" parent="1" vertex="1">
+          <mxGeometry x="630" y="265.5" width="60" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-13" value="SQL" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.monitoring_sql_reporting_services;" parent="1" vertex="1">
+          <mxGeometry x="630" y="160" width="50" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UgJqzmjBnhmSjke2aVZq-9" target="UgJqzmjBnhmSjke2aVZq-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="480" as="sourcePoint" />
+            <mxPoint x="550" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UgJqzmjBnhmSjke2aVZq-13" target="UgJqzmjBnhmSjke2aVZq-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="80" as="sourcePoint" />
+            <mxPoint x="500" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="UgJqzmjBnhmSjke2aVZq-10" target="UgJqzmjBnhmSjke2aVZq-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="510" as="sourcePoint" />
+            <mxPoint x="620" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-20" value="SOURCE LAYER (Источники данных)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-21" value="STORAGE LAYER&lt;div&gt;(Хранение данных)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="315" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UgJqzmjBnhmSjke2aVZq-23" value="BUSINESS LAYER&lt;div&gt;(Доступ к данным для для бизнес пользователей)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6oj1JUo5K6A0E3g63WZx-3" value="AWS&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.excel_services;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="60" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="grWhK9cGuZj0eJbqgCWp-1" value="staff" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="159" width="75" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="grWhK9cGuZj0eJbqgCWp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="grWhK9cGuZj0eJbqgCWp-1" target="UgJqzmjBnhmSjke2aVZq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="189" />
+              <mxPoint x="230" y="189" />
+              <mxPoint x="230" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grWhK9cGuZj0eJbqgCWp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6oj1JUo5K6A0E3g63WZx-3" target="UgJqzmjBnhmSjke2aVZq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="290" as="sourcePoint" />
+            <mxPoint x="295" y="391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="385" />
+              <mxPoint x="230" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
